@@ -5,7 +5,9 @@ Obiettivo successivo: qualificare la postazione e il collegamento autorizzato ad
 
 ## Stato consegnato
 
-Il commit **`018e3f3`** appartiene allo storico locale precedente alla pubblicazione e non è un riferimento necessario o garantito sul remoto. Il repository GitHub è pubblico: la consegna usa una storia pubblicabile senza i dettagli aziendali dello storico locale. Per codice, documentazione di chiusura, PR e branch aggiornato consultare Git e GitHub; non presumere che la PR sia stata unita né che `main` contenga già il lavoro. All'avvio controllare branch, stato locale e stato della PR, preservando eventuali modifiche dell'utente.
+La consegna è nella **[PR #1](https://github.com/av3rgfx/ufp-bolle/pull/1)**, branch **`codex/prima-versione-locale`**, destinazione **`main`**. Alla chiusura di questa sessione la PR è aperta e non unita. Il remoto era vuoto: `main` è stato inizializzato con un commit vuoto, così tutta l'implementazione è revisionabile nella PR. Prima del merge il solo checkout di `main` non contiene i file del progetto.
+
+All'avvio controllare branch, stato locale e stato attuale della PR, preservando eventuali modifiche dell'utente. Se la PR è ancora aperta, recuperare il branch indicato; se è stata unita, partire dal `main` aggiornato. Il repository è pubblico: la storia pubblicata contiene esempi sintetici e documentazione senza gli identificativi aziendali estratti dai materiali; non caricare le vecchie copie locali non ripulite.
 
 | Ambito | Stato effettivo |
 | --- | --- |
@@ -56,7 +58,7 @@ In caso di interruzione conservare piano e registro, interrompere le scritture e
 ## Prompt da copiare nella prossima sessione
 
 ```text
-Riprendi il progetto https://github.com/av3rgfx/ufp-bolle dalla PR di consegna della sessione precedente. Verifica prima branch, stato Git e stato della PR; non presumere che sia già unita. Leggi README.md e docs/prossima-sessione.md, poi i documenti pertinenti. Preserva le modifiche locali.
+Riprendi il progetto https://github.com/av3rgfx/ufp-bolle dalla PR https://github.com/av3rgfx/ufp-bolle/pull/1, branch codex/prima-versione-locale. Verifica prima branch, stato Git e stato della PR; non presumere che sia già unita. Se è aperta usa quel branch; se è unita usa main aggiornato. Prima del merge main contiene solo una base vuota. Leggi README.md e docs/prossima-sessione.md, poi i documenti pertinenti. Preserva le modifiche locali.
 
 Esiste una prima versione Python locale con pianificazione, conferma dei dati esatti, registro persistente e simulazione separata di Nuovo DDT e Libero → Sospendi. Sono registrati 63 test superati. ARS@Logistica non è collegato, Windows non è stato provato e il palmare non è verificato. Non presentare la simulazione come compatibilità reale.
 
