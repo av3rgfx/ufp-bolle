@@ -1,0 +1,15 @@
+[
+  {
+    "row_id": "SIM-ROW-001",
+    "supplier_id": "SIM-PESSIN",
+    "order_type": "SIM-ACQUISTO",
+    "order_number": "SIM-ORD-001",
+    "order_line_id": "SIM-RIGA-001",
+    "supplier_code": "SIM-FORN-001",
+    "internal_code": "SIM-ART-001",
+    "unit": "KG",
+    "remaining": "100",
+    "warehouse": "SIM-UFP",
+    "location": "SIM-RICEVIMENTO"
+  }
+]

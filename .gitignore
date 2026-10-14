@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+state/
+*.sqlite*
+*.db
+*.lock
+*.log
+.env*
+!\.env.example
+private/
+*.mp4
+*.HEIC
+*.docx

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "document": {
+    "supplier_id": "SIM-PESSIN",
+    "supplier_name": "SIMULAZIONE — caso sintetico ispirato alle unità Pessinacciai",
+    "number": "SIM-DDT-001",
+    "date": "2026-10-12",
+    "series": "SIM",
+    "warehouse": "SIM-UFP"
+  },
+  "complete_document": true,
+  "physical_check": {
+    "operator": "SIMULAZIONE — controllo fisico non eseguito",
+    "checked_at": "2026-10-12T09:00:00+00:00"
+  },
+  "lines": [
+    {
+      "receipt_line": "1",
+      "order_type": "SIM-ACQUISTO",
+      "order_number": "SIM-ORD-001",
+      "order_line_id": "SIM-RIGA-001",
+      "supplier_code": "SIM-FORN-001",
+      "internal_code": "SIM-ART-001",
+      "document_quantity": {"value": "0.072", "unit": "TO"},
+      "received_quantity": {"value": "0.072", "unit": "TO"},
+      "registration_unit": "KG",
+      "conversion": {
+        "from": "TO",
+        "to": "KG",
+        "factor": "1000",
+        "reference": "Regola metrica esplicita per questa simulazione: 1 TO = 1000 KG"
+      },
+      "location": "SIM-RICEVIMENTO"
+    }
+  ]
+}

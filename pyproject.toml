@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ufp-bolle"
+version = "0.1.0"
+description = "Preparazione ricezioni UFP e simulazione locale controllata"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ufp-bolle = "ufp_bolle.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ufp_bolle*"]
